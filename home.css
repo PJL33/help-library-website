@@ -1,0 +1,124 @@
+.nav-link
+{
+    background-color: #FF6501;
+}
+
+.test:hover{
+    background-color: blue;
+    color: #FF6501;
+}
+
+form{
+    width: 90%;
+    margin-left: 15%;
+    border: 1px solid black;
+    align-items: center;
+    padding: 20px;
+    background-color: blue;
+    color: #FF6501;
+    font-weight: bold;
+    border-radius: 20px;
+    border:2px solid #FF6501;
+}
+input{
+    margin-bottom: 3vh;
+}
+
+.row
+{
+    margin-bottom: 2vh;
+}
+
+input
+{
+    color: #FF6501;
+}
+input:hover{
+    box-shadow: 1px 2px rgba(255,101,1,0.5);
+    border: 1px solid #FF6501;
+}
+
+button[type="submit"]{
+    background-color: #FF6501;
+    color: blue;
+    font-weight: bold;
+    border: 1px solid #FF6501;
+    border-radius: 5px;
+}
+button[type="submit"]:hover{
+    background-color: white;
+    color: #FF6501;
+}
+
+#img-container{
+    background-image: url(library.jpg);
+    width: 100%;
+    height: 88vh;
+    background-repeat: no-repeat;
+    background-size: 215vh 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 88vh;
+    background-color: rgba(120,120,120,0.7);
+}
+
+#quote{
+    text-transform: uppercase;
+    font-size: 10vh;
+    text-align: center;
+    color: blue;
+}
+
+
+@keyframes change{
+    from{
+        transform: translateX(-605px);
+    }
+    15%{
+        transform:translateX(-500px);
+    }
+    25%
+    {
+        transform:translateX(0px);
+    }
+    35%
+    {
+        transform:translateX(300px);
+    }
+    45%
+    {
+        transform:translateX(500px);
+    }
+    55%
+    {
+        transform:translateX(750px);
+    }
+    75%
+    {
+        transform:translateX(1000px);
+    }
+    85%
+    {
+        transform:translateX(1500px);
+    } 
+    to{
+        transform:translateX(2000px);
+    }
+
+}
+
+#comeback
+{
+    animation-name: change;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    color: #FF6501;
+}

@@ -1,0 +1,41 @@
+#signin{
+    width: 50%;
+    margin: auto;
+    border: 2px solid #FF6501; /*color change*/
+    padding: 50px;
+    border-radius: 15px;
+}
+
+#section-signin{
+    margin-top: 15VH;
+}
+
+#div-button{
+    text-align: center;
+}
+
+/*
+.btn.btn-primary{
+
+}
+*/
+
+#signin-link{
+    color: #FF6501;
+}
+
+#no-account{
+    text-align: center;
+    margin-top: 2%;
+}
+
+#logo-space{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: -5%;
+}
+
+input{
+    color: #FF6501;
+    border-color: #FF6501;
+}
